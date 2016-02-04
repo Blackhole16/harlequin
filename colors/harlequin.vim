@@ -1,7 +1,8 @@
 " Color scheme based on Molokai by Tomas Restrepo and badwolf by Steve Losh.
 "
 " Author: Niels Madan
-" URL: github.com/nielsmadan/harlequin
+" Fork by: Blackhole16
+" Fork: github.com/Blackhole16/harlequin
 
 hi clear
 
@@ -37,6 +38,8 @@ let s:lilac = ['#AE81FF', 141]
 let s:frost = ['#2C89C7', 68] 
 
 let s:sunny = ['#FFFC7F', 228]
+
+let s:green = ['#96ff00', 118]
 
 let s:mordant = ['#AE0C00', 124]
 
@@ -146,7 +149,7 @@ call s:Highlight('CommentUrl',      s:frost, '', 'underline', '')
 call s:Highlight('SpecialComment',  s:frost, '', 'bold', '')
 call s:Highlight('Todo',            s:frost, '', 'bold', '')
 
-call s:Highlight('String',          s:sunny, '', '', '') 
+call s:Highlight('String',          s:green, '', '', '') 
 call s:Highlight('SpecialKey',      s:lilac, '', 'bold', '')
 call s:Highlight('Special',         s:lilac, '', 'bold', '')
 call s:Highlight('SpecialChar',     s:lilac, '', 'bold', '')

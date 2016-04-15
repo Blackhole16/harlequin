@@ -29,6 +29,8 @@ let s:cerise = ['#FF0033', 197]
 
 let s:lime = ['#AEEE00', 154]
 
+let s:blue = ['#005FAF', 25]
+
 let s:gold = ['#FFB829', 214]
 
 let s:brick = ['#CB4154', 167]
@@ -133,7 +135,7 @@ call s:Highlight('Exception',       s:lime, '', 'bold', '')
 call s:Highlight('Include',         s:lime, '', 'bold', '')
 
 call s:Highlight('PreProc',         s:lime, '', '', '')
-call s:Highlight('Macro',           s:lime, '', '', '')
+call s:Highlight('Macro',           s:blue, '', '', '')
 call s:Highlight('Define',          s:lime, '', '', '')
 call s:Highlight('Delimiter',       s:lime, '', '', '')
 call s:Highlight('Ignore',          s:lime, '', '', '')
